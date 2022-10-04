@@ -271,4 +271,4 @@ if (commands.enableSlashes) {
 }
 
 //Bot login
-bot.login(bot.token);
+bot.login(process.env.token);
